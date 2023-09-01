@@ -16,12 +16,12 @@ catergories.forEach((item) => {
     }
   });
 });
-
 productBuyItemButtons.forEach((button) => {
   button.addEventListener('click', () => {
     cardBadgeCount++;
   });
 });
+function closeAllCategroies()
 
 function closeAllCategroies() {
   catergories.forEach((item) => {
